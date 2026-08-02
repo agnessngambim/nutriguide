@@ -162,12 +162,12 @@ function Home() {
             </h1>
            <h1 style={{ fontSize: '1.125rem', fontWeight: 700 }}>Eat Well. Manage Better. Live Well.</h1>
 <p style={{ fontSize: '1.125rem', color: '#6b7280', fontStyle: 'italic' }}>Zambia’s trusted guide to practical nutrition and dietary management.</p>
-            <p className="mb-6 max-w-[620px] text-[17px] leading-relaxed text-ink-soft">
+            <p1 className="mb-6 max-w-[620px] text-[17px] leading-relaxed text-ink-soft">
                Practical diet plans, meal structure and condition-specific support
               designed for ordinary households in Zambia. Uploads from the admin
               dashboard flow into a polished, sellable store experience with
               mobile money and bank payment options.
-            </p>
+            </p1>
             <div className="mb-7 flex flex-wrap gap-3">
               <Link
                 to="/plan"
