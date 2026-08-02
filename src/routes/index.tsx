@@ -350,7 +350,7 @@ function Home() {
             {[
               {
                 title: "1. Search your condition",
-                text: "Start by exploring common nutrition concerns such as diabetes, muscle building, HIV, weight management, gastritis, hypertension and many more.",
+                text: "Explore your health conditions such as cancer, diabetes, HIV,  gastritis, hypertension and many more.; common nutrition corncens such as weight management, fitness, muscle building, and overall wellbeing ",
               },
               {
                 title: "2. Try the free preview",
