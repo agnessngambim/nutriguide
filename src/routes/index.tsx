@@ -11,6 +11,20 @@ import {
   type CarouselApi,
 } from "@/components/ui/carousel";
 
+import React from 'react';
+
+export default function App() {
+  return (
+    <div>
+      <header style={{ textAlign: 'center', padding: '4rem 1rem' }}>
+        <h1 style={{ fontSize: '2.5rem', fontWeight: 700 }}>Eat Well. Manage Better. Live Well.</h1>
+        <p style={{ fontSize: '1.125rem', color: '#6b7280' }}>Zambia’s trusted guide to practical nutrition and dietary management.</p>
+      </header>
+
+      {/* rest of your app */}
+    </div>
+  );
+}
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
