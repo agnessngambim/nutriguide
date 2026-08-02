@@ -353,12 +353,12 @@ function Home() {
                 text: "Explore your health conditions such as cancer, diabetes, HIV,  gastritis, hypertension and many more: common nutrition corncens such as weight management, fitness, muscle building, and overall wellbeing ",
               },
               {
-                title: "2. Explore your Personalist Nutrition",
-                text: "Get a personalist preview based on ypur health needs, dietaly preferences, lifestyle, and wellness goals before proceeding with your full consultation.",
+                title: "2. Explore your Personalized Nutrition",
+                text: "Get a personalized preview based on ypur health needs, dietaly preferences, lifestyle, and wellness goals before proceeding with your full consultation.",
               },
               {
-                title: "3. Compare paid guides",
-                text: "When the search matches a downloadable guide, shoppers can review related paid nutrition plans and choose the best fit.",
+                title: "3. select you personalized nutrition support",
+                text: "Choose from our nutrition services and plans designed to meet your individual health, dietary, and wellness needs.",
               },
               {
                 title: "4. Pay and receive support",
