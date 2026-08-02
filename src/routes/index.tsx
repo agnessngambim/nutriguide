@@ -353,8 +353,8 @@ function Home() {
                 text: "Explore your health conditions such as cancer, diabetes, HIV,  gastritis, hypertension and many more: common nutrition corncens such as weight management, fitness, muscle building, and overall wellbeing ",
               },
               {
-                title: "2. Try the free preview",
-                text: "Use the Build My Plan page to get a general starter guide with meals, shopping ideas, and avoidance tips.",
+                title: "2. Explore your Personalist Nutrition",
+                text: "Get a personalist preview based on ypur health needs, dietaly preferences, lifestyle, and wellness goals before proceeding with your full consultation.",
               },
               {
                 title: "3. Compare paid guides",
