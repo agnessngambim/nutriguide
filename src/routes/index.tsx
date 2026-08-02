@@ -160,13 +160,10 @@ function Home() {
             <h1 className="mb-4 max-w-[720px] text-[clamp(2rem,5.5vw,4.5rem)] leading-[0.95] text-ink">
               The nutrition care guide
             </h1>
-            <h2 className="mb-4 max-w-[650px] text-[clamp(2rem,5.5vw,4.5rem)] leading-[0.95] text-ink">
-              Eat Well. Manage Better. Live Well.
-            </h2>
+           <h1 style={{ fontSize: '2.5rem', fontWeight: 700 }}>Eat Well. Manage Better. Live Well.</h1>
+            <p style={{ fontSize: '1.125rem', color: '#6b7280' }}>Zambia’s trusted guide to practical nutrition and dietary management.</p>
             <p className="mb-6 max-w-[620px] text-[17px] leading-relaxed text-ink-soft">
-              Zambia’s trusted guide to practical nutrition and dietary management.
-              
-              Practical diet plans, meal structure and condition-specific support
+               Practical diet plans, meal structure and condition-specific support
               designed for ordinary households in Zambia. Uploads from the admin
               dashboard flow into a polished, sellable store experience with
               mobile money and bank payment options.
