@@ -350,7 +350,7 @@ function Home() {
             {[
               {
                 title: "1. Search your condition",
-                text: "Explore your health conditions such as cancer, diabetes, HIV,  gastritis, hypertension and many more.; common nutrition corncens such as weight management, fitness, muscle building, and overall wellbeing ",
+                text: "Explore your health conditions such as cancer, diabetes, HIV,  gastritis, hypertension and many more: common nutrition corncens such as weight management, fitness, muscle building, and overall wellbeing ",
               },
               {
                 title: "2. Try the free preview",
