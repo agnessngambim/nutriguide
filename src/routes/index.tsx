@@ -158,16 +158,21 @@ function Home() {
               Zambia · Clinical-style guidance · Digital care marketplace
             </span>
             <h1 className="mb-4 max-w-[720px] text-[clamp(2rem,5.5vw,4.5rem)] leading-[0.95] text-ink">
-              The nutrition care guide
-            </h1>
-           <h1 style={{ fontSize: '1.125rem', fontWeight: 700 }}>Eat Well. Manage Better. Live Well.</h1>
-<p style={{ fontSize: '1.125rem', color: '#6b7280', fontStyle: 'italic' }}>Zambia’s trusted guide to practical nutrition and dietary management.</p>
-            <p1 className="mb-6 max-w-[620px] text-[17px] leading-relaxed text-ink-soft">
-               Practical diet plans, meal structure and condition-specific support
-              designed for ordinary households in Zambia. Uploads from the admin
-              dashboard flow into a polished, sellable store experience with
-              mobile money and bank payment options.
-            </p1>
+  The nutrition care guide
+</h1>
+
+<div className="space-y-3 mb-6">
+  <h1 style={{ fontSize: '1.125rem', fontWeight: 700 }} className="text-center">
+    Eat Well. Manage Better. Live Well.
+  </h1>
+  <p style={{ fontSize: '1.125rem', color: '#6b7280', fontStyle: 'italic' }} className="text-center">
+    Zambia’s trusted guide to practical nutrition and dietary management.
+  </p>
+</div>
+
+<p className="mb-6 max-w-[620px] text-[17px] leading-relaxed text-ink-soft">
+  A practical nutrition dietary management guide with diet plans, designed for specific condition/disease.
+</p>
             <div className="mb-7 flex flex-wrap gap-3">
               <Link
                 to="/plan"
