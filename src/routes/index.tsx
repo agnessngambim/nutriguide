@@ -161,7 +161,7 @@ function Home() {
               The nutrition care guide
             </h1>
            <h1 style={{ fontSize: '1.125rem', fontWeight: 700 }}>Eat Well. Manage Better. Live Well.</h1>
-            <p style={{ fontSize: '1.125rem', color: '#6b7280' }}>Zambia’s trusted guide to practical nutrition and dietary management.</p>
+<p style={{ fontSize: '1.125rem', color: '#6b7280', fontStyle: 'italic' }}>Zambia’s trusted guide to practical nutrition and dietary management.</p>
             <p className="mb-6 max-w-[620px] text-[17px] leading-relaxed text-ink-soft">
                Practical diet plans, meal structure and condition-specific support
               designed for ordinary households in Zambia. Uploads from the admin
