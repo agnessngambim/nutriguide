@@ -28,14 +28,12 @@ export default function App() {
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "People's Choice Nutrition Care | Dietary Plans" },
+      { title: "People's Choice Nutrition Care Eat Well. Manage Better. Live Well. | Dietary Plans." },
       {
         name: "description",
         content:
-          "Eat Well. Manage Better. Live Well.",
-
-           "Zambia’s trusted guide to practical nutrition and dietary management.",
-          "Buy practical nutrition plans for common health conditions in Zambia, with mobile money and bank transfer checkout options.",
+          
+          "Zambia’s trusted guide to practical nutrition and dietary management.Buy practical nutrition plans for common health conditions in Zambia, with mobile money and bank transfer checkout options.",
       },
       { property: "og:title", content: "People's Choice Nutrition Care" },
       {
