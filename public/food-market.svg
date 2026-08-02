@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 640" role="img" aria-label="Zambian market food platter">
+  <defs>
+    <linearGradient id="bg3" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#f5f0d9"/>
+      <stop offset="100%" stop-color="#d9d6ab"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="640" rx="36" fill="url(#bg3)"/>
+  <rect x="120" y="68" width="280" height="54" rx="20" fill="#fffef9" opacity="0.9"/>
+  <text x="145" y="103" font-size="28" font-family="Arial, Helvetica, sans-serif" fill="#1f3a2d" font-weight="700">Market Plate</text>
+  <ellipse cx="455" cy="347" rx="240" ry="130" fill="#8e5d31" opacity="0.95"/>
+  <ellipse cx="455" cy="320" rx="200" ry="96" fill="#efc57d"/>
+  <ellipse cx="330" cy="246" rx="50" ry="28" fill="#8b9a42"/>
+  <ellipse cx="578" cy="252" rx="62" ry="30" fill="#6c8b38"/>
+  <ellipse cx="451" cy="235" rx="60" ry="28" fill="#79a33f"/>
+  <path d="M330 286c30 35 63 50 120 50 56 0 92-14 122-48" stroke="#5d3d1d" stroke-width="18" stroke-linecap="round" fill="none"/>
+  <path d="M305 400c63 28 133 42 196 40 69-2 140-18 206-51" stroke="#413321" stroke-width="12" stroke-linecap="round" opacity="0.4"/>
+</svg>

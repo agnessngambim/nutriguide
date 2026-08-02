@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 640" role="img" aria-label="Nshima with sweet potatoes and vegetable relish">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#e6dfc7"/>
+      <stop offset="100%" stop-color="#b9a886"/>
+    </linearGradient>
+    <linearGradient id="plate" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#f0f0f0"/>
+    </linearGradient>
+    <radialGradient id="nshima" cx="45%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#fffdf8"/>
+      <stop offset="100%" stop-color="#d9d1bf"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="900" height="640" fill="url(#bg)"/>
+  <ellipse cx="450" cy="500" rx="310" ry="70" fill="#2f2416" opacity="0.16"/>
+
+  <g transform="translate(90 100)">
+    <ellipse cx="340" cy="250" rx="235" ry="150" fill="url(#plate)" stroke="#d8d8d8" stroke-width="6"/>
+    <ellipse cx="340" cy="250" rx="205" ry="122" fill="#f9f9f9" stroke="#d8d8d8" stroke-width="3"/>
+
+    <ellipse cx="360" cy="230" rx="110" ry="95" fill="url(#nshima)" stroke="#c3b79b" stroke-width="4"/>
+    <ellipse cx="395" cy="232" rx="56" ry="44" fill="#dfd8c4" opacity="0.8"/>
+
+    <g transform="translate(220 210)">
+      <path d="M0 20 C18 -10, 78 -10, 110 18 C126 38, 130 70, 112 95 C60 120, 26 118, 0 80 C-8 66,-10 38,0 20Z" fill="#4b7c24" opacity="0.95"/>
+      <path d="M22 26 C48 6, 84 10, 98 32 C82 52, 56 56, 26 48 C16 42, 14 34, 22 26Z" fill="#83a43f"/>
+      <circle cx="35" cy="38" r="16" fill="#d24924"/>
+      <circle cx="66" cy="66" r="12" fill="#c4522b"/>
+      <circle cx="88" cy="50" r="10" fill="#ea5f2b"/>
+      <circle cx="100" cy="74" r="8" fill="#d84124"/>
+      <circle cx="42" cy="78" r="7" fill="#8ca43b"/>
+      <circle cx="56" cy="92" r="11" fill="#c85b2f"/>
+      <circle cx="78" cy="92" r="8" fill="#5f832a"/>
+    </g>
+
+    <g transform="translate(190 178)">
+      <path d="M34 0 C56 18, 96 40, 130 50 C109 70, 88 78, 65 80 C18 78, -6 60, 0 34 C6 14, 12 8, 34 0Z" fill="#a6c85a" opacity="0.9"/>
+      <circle cx="40" cy="40" r="12" fill="#d04924"/>
+      <circle cx="72" cy="62" r="10" fill="#e85e2d"/>
+      <circle cx="88" cy="36" r="8" fill="#6b8f2e"/>
+      <circle cx="102" cy="52" r="9" fill="#d74b28"/>
+    </g>
+
+    <g transform="translate(438 306)">
+      <path d="M0 24 C18 -14, 62 -18, 82 10 C94 30, 86 50, 54 66 C24 80, 2 80, -12 58 C-16 44,-12 34,0 24Z" fill="#6a8a2d" opacity="0.92"/>
+      <circle cx="48" cy="28" r="12" fill="#de592b"/>
+      <circle cx="30" cy="44" r="10" fill="#7f9a34"/>
+    </g>
+
+    <g transform="translate(258 116)">
+      <rect x="0" y="0" width="170" height="38" rx="18" fill="#4c6b27" opacity="0.9"/>
+      <text x="14" y="25" font-size="20" font-family="Arial, Helvetica, sans-serif" fill="#f7f2e3" font-weight="700">Nshima with Sweet Potatoes</text>
+    </g>
+  </g>
+</svg>

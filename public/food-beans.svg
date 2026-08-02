@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 640" role="img" aria-label="Beans and relish">
+  <defs>
+    <linearGradient id="bg2" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#fce6d1"/>
+      <stop offset="100%" stop-color="#efb065"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="640" rx="36" fill="url(#bg2)"/>
+  <rect x="120" y="68" width="250" height="54" rx="20" fill="#fffef9" opacity="0.9"/>
+  <text x="145" y="103" font-size="28" font-family="Arial, Helvetica, sans-serif" fill="#1f3a2d" font-weight="700">Beans &amp; Relish</text>
+  <ellipse cx="450" cy="355" rx="235" ry="125" fill="#7f4f2d" opacity="0.95"/>
+  <ellipse cx="450" cy="320" rx="205" ry="98" fill="#cc7f45"/>
+  <path d="M355 280c42-28 82-41 126-39 39 3 74 22 111 43" stroke="#5f3721" stroke-width="20" stroke-linecap="round" fill="none"/>
+  <circle cx="348" cy="253" r="32" fill="#9bad49"/>
+  <circle cx="574" cy="247" r="38" fill="#6f8c38"/>
+  <circle cx="456" cy="230" r="42" fill="#7da241"/>
+  <path d="M290 397c70 24 136 33 204 31 68-2 137-16 202-50" stroke="#3e3121" stroke-width="13" stroke-linecap="round" opacity="0.4"/>
+</svg>
