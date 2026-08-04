@@ -549,7 +549,7 @@ function Home() {
                       key={c.id}
                       to="/condition/$conditionId"
                       params={{ conditionId: c.id }}
-                      className="flex min-h-[132px] flex-col gap-2.5 rounded-[10px] border border-line bg-paper p-[18px] transition-all hover:-translate-y-0.5 hover:border-leaf-dim hover:shadow-[0_6px[...]
+                      className="flex min-h-[132px] flex-col gap-2.5 rounded-[10px] border border-line bg-paper p-[18px] transition-all hover:-translate-y-0.5 hover:border-leaf-dim hover:shadow-[0_6px_24px_rgba(34,197,94,0.1)]"
                     >
                       <div
                         className="plate size-[30px] shrink-0 rounded-full"
