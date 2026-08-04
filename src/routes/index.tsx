@@ -17,7 +17,7 @@ export default function App() {
   return (
     <div>
       <header style={{ textAlign: 'center', padding: '4rem 1rem' }}>
-        <h1 style={{ fontSize: '2.5rem', fontWeight: 700 }}>Eat Well. Manage Better. Live Well.</h1>
+        <h1 style={{ fontSize: '2.5rem', fontWeight: 700 }}>Eat Well. Manage Your Health. Live Well.</h1>
         <p style={{ fontSize: '1.125rem', color: '#6b7280' }}>Zambia’s trusted guide to practical nutrition and dietary management.</p>
       </header>
 
@@ -28,14 +28,13 @@ export default function App() {
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "People's Choice Nutrition Care Eat Well. Manage Better. Live Well. | Dietary Plans." },
+      { title: "People's Choice Nutrition Consultancy | Personalised Nutrition Support for Better Health" },
       {
         name: "description",
         content:
-          
-          "Zambia’s trusted guide to practical nutrition and dietary management.Buy practical nutrition plans for common health conditions in Zambia, with mobile money and bank transfer checkout options.",
+          "Professional nutrition and dietary guidance tailored to your health conditions, nutritional needs, lifestyle, and wellness goals. Practical, food-first plans and accessible consultation for Zambian households.",
       },
-      { property: "og:title", content: "People's Choice Nutrition Care" },
+      { property: "og:title", content: "People's Choice Nutrition Consultancy" },
       {
         property: "og:description",
         content:
@@ -71,7 +70,7 @@ const heroImages = Array.from({ length: 63 }, (_, index) => {
 const trustPoints = [
   "Practical Zambian meal guidance",
   "Condition-focused plan design",
-  "Easy MoMo and bank payment paths",
+  "Accessible consultation and support",
   "Trusted by families seeking day-to-day structure",
 ];
 
@@ -155,44 +154,45 @@ function Home() {
         <div className="mx-auto grid max-w-[1180px] gap-6 lg:grid-cols-[1.1fr_0.9fr] lg:items-center">
           <div>
             <span className="mb-3.5 block font-mono text-xs uppercase tracking-[0.12em] text-clay">
-              Zambia · Clinical-style guidance · Digital care marketplace
+              Zambia · Clinical-style guidance · Professional nutrition consultancy
             </span>
-            <h1 className="mb-4 max-w-[720px] text-[clamp(2rem,5.5vw,4.5rem)] leading-[0.95] text-ink">
-  The nutrition care guide
-</h1>
-
-<div className="space-y-3 mb-6">
-  <h1 style={{ fontSize: '1.125rem', fontWeight: 700 }} className="text-center">
-    Eat Well. Manage Better. Live Well.
-  </h1>
-  <p style={{ fontSize: '1.125rem', color: '#6b7280', fontStyle: 'italic' }} className="text-center">
-    Zambia’s trusted guide to practical nutrition and dietary management.
-  </p>
-</div>
-
-<p className="mb-6 max-w-[620px] text-[17px] leading-relaxed text-ink-soft">
-  A practical nutrition dietary management guide with diet plans, designed for specific condition/disease.
-</p>
+            <h1 className="mb-4 max-w-[720px] text-[clamp(1.5rem,5.5vw,3rem)] leading-[0.95] text-ink">
+              PEOPLE’S CHOICE NUTRITION CONSULTANCY
+            </h1>
+            <h2 className="mb-2 max-w-[650px] text-[clamp(1.25rem,4.5vw,2rem)] leading-[0.95] text-ink">
+              Personalised Nutrition Support for Better Health
+            </h2>
+            <h3 className="mb-4 max-w-[650px] text-[clamp(1rem,3.5vw,1.5rem)] leading-[0.95] text-ink">
+              Eat Well. Manage Your Health. Live Well.
+            </h3>
+            <p className="mb-6 max-w-[620px] text-[17px] leading-relaxed text-ink-soft">
+              Zambia's trusted guide to practical nutrition and dietary management.
+            </p>
+            <p className="mb-6 max-w-[620px] text-[15px] leading-relaxed text-ink-soft">
+              Professional nutrition and dietary guidance tailored to your health conditions, nutritional needs,
+              lifestyle, and wellness goals. We combine clinical expertise with locally-relevant food choices to
+              make healthy eating realistic and sustainable.
+            </p>
             <div className="mb-7 flex flex-wrap gap-3">
               <Link
                 to="/plan"
                 className="rounded-lg bg-leaf px-5 py-3 text-sm font-semibold text-primary-foreground transition-colors hover:bg-leaf-dim"
               >
-                Build my plan
+                Build My Nutrition Plan
               </Link>
               <Link
                 to="/consultation"
                 className="rounded-lg border border-line bg-paper px-5 py-3 text-sm font-semibold text-ink transition-colors hover:border-leaf hover:text-leaf"
               >
-                Book a consultation
+                Book a Consultation
               </Link>
             </div>
 
             <div className="grid gap-3 sm:grid-cols-3">
               {[
-                "Understand your condition",
-                "Know what to eat",
-                "Know what to limit",
+                "Understand Your Nutrition Needs",
+                "Know What to Eat",
+                "Know What to Limit",
               ].map((item) => (
                 <div
                   key={item}
@@ -219,9 +219,9 @@ function Home() {
                   </div>
                   <div className="rounded-2xl bg-paper/10 p-4">
                     <div className="text-[12px] uppercase tracking-[0.16em] text-paper/75">
-                      Pricing shown in dollars
+                      Pricing shown in Zambian Kwacha (K)
                     </div>
-                    <div className="mt-2 text-lg font-semibold">$95 – $250 per plan</div>
+                    <div className="mt-2 text-lg font-semibold">K95 – K250 per plan</div>
                   </div>
                 </div>
               </div>
@@ -350,19 +350,19 @@ function Home() {
             {[
               {
                 title: "1. Search your condition",
-                text: "Explore your health conditions such as cancer, diabetes, HIV,  gastritis, hypertension and many more: common nutrition corncens such as weight management, fitness, muscle building, and overall wellbeing ",
+                text: "Start by exploring common nutrition concerns such as diabetes, muscle building, HIV, weight management, gastritis, hypertension and many more.",
               },
               {
-                title: "2. Explore your Personalized Nutrition",
-                text: "Get a personalized preview based on ypur health needs, dietaly preferences, lifestyle, and wellness goals before proceeding with your full consultation.",
+                title: "2. Try the free preview",
+                text: "Use the Build My Plan page to get a general starter guide with meals, shopping ideas, and avoidance tips.",
               },
               {
-                title: "3. select you personalized nutrition support",
-                text: "Choose from our nutrition services and plans designed to meet your individual health, dietary, and wellness needs.",
+                title: "3. Compare paid guides",
+                text: "When the search matches a downloadable guide, shoppers can review related paid nutrition plans and choose the best fit.",
               },
               {
-                title: "4. Access Your Personalised Nutrition Support",
-                text: "Choose your preferred service, complete your payment securely, and receive your personalised nutrition plan, digital guide, or professional consultation.",
+                title: "4. Pay and receive support",
+                text: "Choose mobile money or bank payment, then continue with the digital guide or book a professional consultation if needed.",
               },
             ].map((step) => (
               <div key={step.title} className="rounded-[18px] border border-line bg-sand p-4">
@@ -549,7 +549,7 @@ function Home() {
                       key={c.id}
                       to="/condition/$conditionId"
                       params={{ conditionId: c.id }}
-                      className="flex min-h-[132px] flex-col gap-2.5 rounded-[10px] border border-line bg-paper p-[18px] transition-all hover:-translate-y-0.5 hover:border-leaf-dim hover:shadow-[0_6px_18px_rgba(35,32,27,0.08)]"
+                      className="flex min-h-[132px] flex-col gap-2.5 rounded-[10px] border border-line bg-paper p-[18px] transition-all hover:-translate-y-0.5 hover:border-leaf-dim hover:shadow-[0_6px_18px_rgba(24,42,35,0.06)]"
                     >
                       <div
                         className="plate size-[30px] shrink-0 rounded-full"
