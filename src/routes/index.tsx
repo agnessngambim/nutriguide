@@ -18,7 +18,7 @@ export default function App() {
     <div>
       <header style={{ textAlign: 'center', padding: '4rem 1rem' }}>
         <h1 style={{ fontSize: '2.5rem', fontWeight: 700 }}>Eat Well. Manage Your Health. Live Well.</h1>
-        <p style={{ fontSize: '1.125rem', color: '#6b7280' }}>Zambia’s trusted guide to practical nutrition and dietary management.</p>
+        <p style={{ fontSize: '1.125rem', color: '#6b7280' }}>Zambia's trusted guide to practical nutrition and dietary management.</p>
       </header>
 
       {/* rest of your app */}
@@ -28,13 +28,13 @@ export default function App() {
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "People's Choice Nutrition Consultancy | Personalised Nutrition Support for Better Health" },
+      { title: "Personalised Nutrition Support for Better Health | People's Choice Nutrition Consultancy" },
       {
         name: "description",
         content:
-          "Professional nutrition and dietary guidance tailored to your health conditions, nutritional needs, lifestyle, and wellness goals. Practical, food-first plans and accessible consultation for Zambian households.",
+          "Professional nutrition and dietary guidance tailored to your health conditions, nutritional needs, lifestyle, and wellness goals. Practical, food-first plans and accessible consultation for[...]
       },
-      { property: "og:title", content: "People's Choice Nutrition Consultancy" },
+      { property: "og:title", content: "Personalised Nutrition Support for Better Health" },
       {
         property: "og:description",
         content:
@@ -157,7 +157,7 @@ function Home() {
               Zambia · Clinical-style guidance · Professional nutrition consultancy
             </span>
             <h1 className="mb-4 max-w-[720px] text-[clamp(1.5rem,5.5vw,3rem)] leading-[0.95] text-ink">
-              PEOPLE’S CHOICE NUTRITION CONSULTANCY
+              PEOPLE'S CHOICE NUTRITION CONSULTANCY
             </h1>
             <h2 className="mb-2 max-w-[650px] text-[clamp(1.25rem,4.5vw,2rem)] leading-[0.95] text-ink">
               Personalised Nutrition Support for Better Health
@@ -384,7 +384,7 @@ function Home() {
             <div className="mt-4 grid gap-3 md:grid-cols-3">
               {testimonials.map((item) => (
                 <div key={item.name} className="rounded-[18px] border border-line bg-sand p-4">
-                  <p className="text-sm leading-relaxed text-ink-soft">“{item.quote}”</p>
+                  <p className="text-sm leading-relaxed text-ink-soft">"{item.quote}"</p>
                   <div className="mt-3 text-[12px] font-semibold uppercase tracking-[0.12em] text-clay">
                     {item.name}
                   </div>
@@ -549,7 +549,7 @@ function Home() {
                       key={c.id}
                       to="/condition/$conditionId"
                       params={{ conditionId: c.id }}
-                      className="flex min-h-[132px] flex-col gap-2.5 rounded-[10px] border border-line bg-paper p-[18px] transition-all hover:-translate-y-0.5 hover:border-leaf-dim hover:shadow-[0_6px_18px_rgba(24,42,35,0.06)]"
+                      className="flex min-h-[132px] flex-col gap-2.5 rounded-[10px] border border-line bg-paper p-[18px] transition-all hover:-translate-y-0.5 hover:border-leaf-dim hover:shadow-[0_6px[...]
                     >
                       <div
                         className="plate size-[30px] shrink-0 rounded-full"
