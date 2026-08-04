@@ -361,8 +361,8 @@ function Home() {
                 text: "Choose from our nutrition services and plans designed to meet your individual health, dietary, and wellness needs.",
               },
               {
-                title: "4. Pay and receive support",
-                text: "Choose mobile money or bank payment, then continue with the digital guide or book a professional consultation if needed.",
+                title: "4. Access Your Personalised Nutrition Support",
+                text: "Choose your preferred service, complete your payment securely, and receive your personalised nutrition plan, digital guide, or professional consultation.",
               },
             ].map((step) => (
               <div key={step.title} className="rounded-[18px] border border-line bg-sand p-4">
