@@ -18,7 +18,7 @@ export function SiteHeader() {
           <div className="leading-tight">
             <div className="font-display text-base font-bold">People's Choice</div>
             <div className="text-[11px] uppercase tracking-[0.08em] text-ink-soft">
-              Nutrition Care
+              Nutrition Consultancy
             </div>
           </div>
         </Link>
@@ -47,7 +47,7 @@ export function SiteHeader() {
 export function SiteFooter() {
   return (
     <footer className="border-t border-line px-6 py-7 text-center text-[13px] text-ink-soft">
-      People's Choice Nutrition Care · Prototype · General guidance only — not a
+      People's Choice Nutrition Consultancy · Prototype · General guidance only — not a
       substitute for medical advice
     </footer>
   );
